@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+    <title>Kevin's Portfolio</title>    
+    <meta name="viewport" content="width = device-width , initial-scale=1">
+    <meta property="og:title" content="Kevin Williams" />
+    <meta property="og:description" content="Kevin Williams is a Full Stack Developer interested in frontier technologies.  Born and raised in Missouri, Kevin graduated The Stanford GSB and Morehouse College.  He currently resides in Los Angeles, CA" />
+    <meta property="og:url" content="http://kevinjwilliams.com/" />
+    <meta property="og:image" content="http://i.imgur.com/oDNYjlf.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animated-heading-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Princess+Sofia' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/modernizr.js"></script>
+    <script src="./js/script.js"></script>
+    </head>
+
+  <!-- DESKTOP NAV -->
+
+ 
+      <nav id="desktop">
+        <div class="nav-wrapper">
+          <a href="/"><img class="logo" src="./images/kjwlogo.png"></a>
+          <ul class="right">
+            <li><a class="links" href="#work-div">WORK</a></li>
+            <li><a class="links" href="./images/kevinwilliamscv.pdf" target="_blank">RESUME</a></li>
+            <li><a class="links" href="#contact-div">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+ 
+
+  <!-- mobile nav -->
+
+
+<nav id="mobile">
+  <a href="/"><img class="logo" src="./images/kjwlogo.png"></a>
+  <ul id="slide-out" class="side-nav">
+    <a href="/"><img class="logo" src="./images/kjwlogo.png"></a>
+     <li><a class="mobile-links" href="#work-div">WORK</a></li>
+     <li><a class="mobile-links" href="./images/kevinwilliamscv.pdf" target="_blank">RESUME</a></li>
+     <li><a class="mobile-links" href="#contact-div">CONTACT</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" id="hamburger"><i class="mdi-navigation-menu"></i></a>
+</nav>
+
+
+  <body>
+
+    <!-- HOME DIV -->
+
+      <div id="home-div">
+
+        <span id="name">Kevin Williams</span><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+          <h1 id="occupation" class="cd-headline letters type">
+
+            <span>Full Stack Developer</span>
+            <span class="cd-words-wrapper">
+              <b class="is-visible options"> / MBA Grad</b>
+              <b class="options"> / Frontier Techie</b>
+              <b class="options"> / Road Tripper</b>
+            </span>
+          </h1>
+        </section>
+
+        <a href="#work-div"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
+
+      </div>
+
+
+      <!-- WORK DIV -->
+
+      <div id="work-div">
+
+        <div class="row">
+
+        <!-- MONITOR SECTION -->
+
+          <div id="monitor-div" class="col s12 m6">
+            <img id="rex-monitor-img" class="show monitor-img" src="./images/dronehive.png">
+            <img id="fstvl-monitor-img" class="hidden monitor-img" src="./images/bundlr.png">
+            <img id="foodli-monitor-img" class="hidden monitor-img" src="./images/vrseatile.png">
+            <img id="wlg-monitor-img" class="hidden monitor-img" src="./images/useofforcear.png">
+            <img id="monitor" src="http://pngimg.com/upload/laptop_PNG5893.png">
+          </div>
+
+          <div class="project-details">
+
+          <!-- DRONEHIVE DETAILS -->
+
+            <div class="show" id="rex-details">
+              <div class="work-header">RECENT WORK</div>
+              <div class="project-header">DRONEHIVE</div>
+              <a class="see-work waves-effect waves-light grey lighten-4 btn projectSite" href="http://dronhive.herokuapp.com/" target="_blank">PROJECT SITE</a>
+
+              <div class="detail first-detail">Keep track of your fleet of drones! Monitor and display max altitude per drone. This is a MEAN stack app.</div><br>
+
+              <div class="detail">Final project at General Assembly, done individually in WEEK 12. I wanted exposure to data visualization so I learned & incorporated <strong> D3.js</strong> in <strong>1-week</strong> using the <strong> MEAN Stack.</strong><br><br><strong>To enjoy:  </strong>1. sign up 2. log in 3. add drones & max altitude per flight.</div>
+            </div>
+
+            <!-- FSTVL DETAILS -->
+
+            <div class="hidden" id="fstvl-details">
+              <div class="work-header">RECENT WORK</div>
+              <div class="project-header">BUNDLR</div>
+              <a class="see-work waves-effect waves-light grey lighten-4 btn projectSite" href="https://bundlr-rgk.herokuapp.com/" target="_blank">PROJECT SITE</a>
+
+              <div class="detail first-detail">Bundlr aggregates and returns the top 10 search results from three social media sites (YouTube, Twitter & Reddit) onto one page using a MEN Stack (MongoDB, Express.js and Node.js). Coded in a one-week sprint using agile development methodologies on a team with two others to pull from APIs. </div><br>
+
+              <div class="detail">On our team, I was responsible for <strong>Facebook Log-In Authorization</strong> , <strong> OAth </strong>, & <strong> the Users Controller</strong>.</div>
+            </div>
+
+            <!-- Foodli Details -->
+
+            <div class="hidden" id="foodli-details">
+              <div class="work-header">RECENT WORK</div>
+              <div class="project-header">VRSEatile</div>
+              <a class="see-work waves-effect waves-light grey lighten-4 btn projectSite" href="http://vrseatile.herokuapp.com/" target="_blank">PROJECT SITE</a>
+
+              <div class="detail first-detail">VRSEatile is a web app demo of what a virtual reality content provider using a Netlix approach could look like, inspired by Chris Milk's VRSE. </div><br>
+
+              <div class="detail">Second project for General Assembly, done solo in WEEK 2. Developed in <strong>1 week</strong> using <strong>Ruby</strong>, <strong>Ruby on Rails</strong>, <strong>bcrypt</strong>, & some <strong>Bootstrap</strong>.</div>
+            </div>
+
+            <!-- WLG DETAILS -->
+
+            <div class="hidden" id="wlg-details">
+              <div class="work-header">RECENT WORK</div>
+              <div class="project-header">Use of Force AR</div>
+              <a class="see-work waves-effect waves-light grey lighten-4 btn projectSite" href="https://useofforcear.herokuapp.com/" target="_blank">PROJECT SITE</a>
+
+              <div class="detail first-detail">The game is designed to both demo a potential use-case/app for future augmented reality (AR) headsets (e.g. HoloLens, MagicLeap, Asus) and the need for more training in our nation's police academies, agencies that issue firearms, and for any US citizen that seeks to wield a firearm for home defense.</div><br>
+
+              <div class="detail">My first ever web app.  Built over <strong>72 hours</strong> and the goal was to create a 2-player game after one week's exposure to <strong>HTML</strong> , <strong> CSS </strong> & basic <strong> JavaScript </strong></div>
+            </div>
+          </div>
+
+          <!-- SELECTION PANEL -->
+
+          <div id="work-selection" class="">
+             <img style="width:400px" class="work-thumbnail" id="rex-thumb" src="./images/dronehive.png">
+             <img style="width:400px" class="work-thumbnail" id="fstvl-thumb" src="./images/bundlr.png">
+             <img style="width:400px" class="work-thumbnail" id="foodli-thumb" src="./images/vrseatile.png">
+             <img style="width:400px" class="work-thumbnail" id="wlg-thumb" src="./images/useofforcear.png">
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT DIV -->
+
+      <div id="contact-div" class="row">
+
+        <div id="img-div" class="col s12 m4">
+          <img id="headshot" src="./images/kevinheadshotnew.png">
+          <div id="icon-box">
+            <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="kevinjustinwilliams@gmail.com" id="mail-contact" style="font-size:18px" href="mailto:kevinjustinwilliams@gmail.com"><img class="icons" src="./images/mail.png"></a>
+            <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="kevinjwilliams" href="https://www.facebook.com/kevinjwilliamsspeakerfan"><span><img id="facebook" class="icons" src="./images/facebook2.png"></span></a>
+            <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="kevinwilliams" href="https://www.linkedin.com/in/kevinjustinwilliams"><span><img id="linkedin" class="icons" src="./images/linkedin.png"></span></a>
+            <a class="icon-link tooltipped" data-position="top" data-delay="50" data-tooltip="kjwbeige" href="https://github.com/KJWBeige"><span><img id="github" class="icons" src="./images/github3.png"></span></a>
+          </div>
+        </div>
+        <div id="contact-details" class="col s12 m8">
+
+          <p id="main-details">
+            <div id="hi">Hi, I'm Kevin!</div>
+            <strong>I'm a full-stack developer with a love for thoughtful UX & Data Based Decisions</strong>
+          </p>
+            
+          <p id="more-details">
+            <br>
+            When I'm not coding, I am probably jogging, spending some QT with my fiancee Ashley, dog Watson & cat Minxie, binge watching Netflix shows, flying my Phantom 3 drone, testing out the latest Virtual Reality mobile app, or escaping to see a movie.
+          </p>
+          <div id="interested">MY DEVELOPMENT EXPERIENCE INCLUDES:</div><br>
+          <div id="skills">
+            LANGUAGES: HTML5, CSS3, JavaScript, Ruby<br><br>
+            FRAMEWORKS: Node.js, Express.js, Angular.js, Rails, Meteor<br><br>
+            DATABASE TOOLS: MongoDB, PostgreSQL, Sequelize, Postico<br><br>
+            OTHER: jQuery, Git/Github, Heroku Deployment, JSON, Bootstrap,<br>
+            DOM Manipulation, Sass, Responsive Wed Design, Client-Server Model,<br>
+            API's, AJAX, Socket.IO, Ionic, OAUTH, Postman, React<br><br><br>
+            For more details, feel free to check out my <a class="waves-effect waves-light btn resume-btn btn-flat" href="./images/kevinwilliamscv.pdf" target="_blank">RESUME</a>.
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+  <footer>
+    <div id="copyright">&copy Kevin Williams, 2016</div>
+  </footer>
+
+</html>
